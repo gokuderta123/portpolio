@@ -880,7 +880,7 @@
   }
   section.fabritpattern_content ul li div{
     box-sizing: border-box;
-    max-width: 710px;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
     text-align: center;
@@ -2537,7 +2537,7 @@
   }
   section.fabritpattern_content ul li div{
     box-sizing: border-box;
-    width: 90%;
+    max-width: 710px;
     height: 100%;
     margin: 0 auto;
     text-align: center;
