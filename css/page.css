@@ -840,6 +840,9 @@
   section.fabritpattern_content h2{
     text-indent: -9999px;
   }
+  section.fabritpattern_content ul{
+    width: 100%;
+  }
   section.fabritpattern_content ul li{
     height: 800px;
     background-size:100% 700px;
