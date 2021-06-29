@@ -273,12 +273,6 @@
   section.Recruitment div ul li:nth-of-type(3){
     border-left: #aaa 1px solid;
   }
-  section.Recruitment div ul li:hover {
-    flex: 1.5;
-    height: 200px;
-    background: linear-gradient(-45deg, #b23334, #ffa608);
-    box-shadow: 15px 0px 50px 1px;
-  }
   section.Recruitment div ul li dl{
     background-size: 50px;
     background-repeat: no-repeat;
@@ -295,22 +289,6 @@
   }
   section.Recruitment div ul li:nth-of-type(4) dl {
     background-image: url("../images/recruitment_section04.png");
-  }
-  section.Recruitment div ul li dl:hover{
-    background-repeat: no-repeat;
-    background-position: center 60px; 
-  }
-  section.Recruitment div ul li:nth-of-type(1) dl:hover {
-    background-image: url("../images/recruitment_section01_hover.png");
-  }
-  section.Recruitment div ul li:nth-of-type(2) dl:hover {
-    background-image: url("../images/recruitment_section02_hover.png");
-  }
-  section.Recruitment div ul li:nth-of-type(3) dl:hover {
-    background-image: url("../images/recruitment_section03_hover.png");
-  }
-  section.Recruitment div ul li:nth-of-type(4) dl:hover {
-    background-image: url("../images/recruitment_section04_hover.png");
   }
   section.Recruitment div ul li a{
     width: 100%;
@@ -333,14 +311,6 @@
     padding: 10px 17.5% 0;
     line-height: 30px;
     font-size: 14px;
-  }
-  section.Recruitment div ul li a dl:hover dt{
-    padding-top: 150px;
-    color: #fff;
-  }
-  section.Recruitment div ul li a dl:hover > dd {
-    display: block;
-    color: #fff;
   }
   /* Recruitment fin*/
   /* mainpage fin */
