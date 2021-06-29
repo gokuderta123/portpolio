@@ -835,7 +835,8 @@
   }
   /* section.fabritpattern_img fin */
   section.fabritpattern_content{
-    margin-top: 100px;
+    width: 90%;
+    margin: 100px auto 0;
   }
   section.fabritpattern_content h2{
     text-indent: -9999px;
