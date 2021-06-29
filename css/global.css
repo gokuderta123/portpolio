@@ -1,0 +1,725 @@
+@media screen and (min-width:280px) and (max-width:767px){
+  .btn_more{
+    padding: 10px 25px;
+    border: 1px #ffffff solid;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+  }
+  .btn_more:hover{
+    color: #000;
+    background-color: #fff;
+  }
+  header{
+    position: fixed;
+    width: 100%;
+    font-family: "Nanum Myeongjo";
+    z-index: 1;
+    height: 0px;
+  }
+  header.active{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+  }
+  header button{
+    z-index: 1;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right:10px;
+    display:block;
+    background:url('../images/menu_button.png') center / cover;
+  }
+  header button.active{
+    background:url('../images/menu_close.png') center / cover;
+  }
+  header > a{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;  
+    width: 50px;
+    height: 50px;
+    background: url('../images/main_logo.png') no-repeat center / auto;
+  }
+  header > a.active{
+    display: block;
+  }
+  header nav{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 530px;
+    transition-duration: 0.3s;
+    left:-9999px;
+  }
+  header nav.active02{
+      left: 0;
+  }
+  header > nav > ul{
+    transition-duration:0.3s;
+    background-color: #dddddd;
+    width: 55%;
+    height: 530px;
+    text-align: left;
+  }
+  header nav > ul > li{
+    position: relative;
+    font-size: 25px;
+    color: #333333;
+  }
+  header nav > ul > li:first-of-type{
+    padding: 160px 0 50px 5%;
+  }
+  header nav > ul > li:not(:first-of-type){
+    padding: 0 0 50px 5%;
+  }
+  header nav > ul > li > span{
+    font-size: 14px;
+    position: absolute;
+    right:5px;
+    transition-duration: 0.2s;
+  }
+  header nav > ul > li > span.active{
+    transform: rotate(180deg);
+  }
+  header nav > ul > li:first-of-type > span{
+    top: 160px;
+  }
+  header nav ul li > a{
+    color:inherit;
+  }
+  header nav > div{
+    width: 45%;
+  }
+  header nav > div > ul{
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  header nav > div > ul.active{
+    display: block;
+    background-color: #ccc;
+  }
+  header nav > div > ul > li{
+    width: 100%;
+  }
+  header nav > div > ul > li:first-of-type{
+    padding: 160px 0 30px 5%;
+  }
+  header nav > div > ul > li:not(:first-of-type){
+    padding: 0 0 30px 5%;
+  }
+  header nav > div > ul > li > a{
+    font-size: 15px;
+    color: #333333;
+  }
+  section.list_img,section.hanbok_list_img{
+    height: 100vh;
+    position: relative;
+  }
+  section.list_img h1,section.hanbok_list_img h1{
+    text-indent: -9999px;
+  }
+  section.list_img div,section.hanbok_list_img div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    writing-mode: vertical-lr;
+    left: calc(50% - 15px);
+  }
+  section.list_img div strong,section.hanbok_list_img div strong{
+    flex: 1 1 auto;
+    color: #fff;
+    font-size: 15px;
+  }
+  section.list_img div span,section.hanbok_list_img div span{
+    flex: 1 1 auto;
+    display: block;
+    background-color: #fff;
+    height: 130px;
+    width: 1px;
+  }
+  section.list_content,section.hanbok_list_content{
+    margin: 100px 0;
+    text-align: center;
+  }
+  section.list_content h2,section.hanbok_list_content h2{
+    font-size: 50px;
+    color: #777;
+    margin-bottom: 50px;
+  }
+  section.list_content strong,section.hanbok_list_content strong{
+    display: block;
+    font-size: 30px;
+    color: #777;
+    margin-bottom: 60px;
+  }
+  section.jeogori,section.durumagi{
+    position: relative;
+  }
+  section.jeogori h1,section.durumagi h1{
+    padding: 175px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: #000 1px 1px 10px;
+  }
+  section.jeogori ul,section.durumagi ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 950px;
+    margin: 0 auto;
+  }
+  section.jeogori ul li,section.durumagi ul li{
+    width: 50%;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    height:50vh;
+    box-sizing: border-box;
+    text-indent: -9999px;
+  }
+  section.jeogori div,section.durumagi div{
+    display: inline-block;
+    line-height: 30px;
+    width:100%;
+    text-align: center;
+    position: absolute;
+    bottom:50px;
+  }
+  section.jeogori div strong,section.durumagi div strong{
+    display: block;
+    font-size: 17px;
+    color: #666;
+    margin:0 auto 20px auto;
+    width: 99%;
+  }
+  section.jeogori div p,section.durumagi div p{
+    font-size: 14px;
+    border-top: rgba(221, 221, 221, 0.6) 3px solid;
+    border-bottom: rgba(221, 221, 221, 0.6) 3px solid;
+    color: #666666;
+    padding: 20px;
+  }
+  footer{
+    height: 240px;
+    font-family: "Nanum Myeongjo";
+    background: #555555 url("../images/footer_logo.png") no-repeat center 180px / 50px;
+  }
+  footer div.blackBG {
+    background-color: #444444;
+  }
+  footer div.blackBG ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    max-width: 260px;
+    margin: 0 auto;
+    padding:15px 0;
+  }
+  footer div.blackBG ul li:nth-of-type(2) {
+    margin: 25px 0;
+  }
+  footer div.blackBG ul li address {
+    display: inline;
+    color: #dddddd;
+    font-size: 14px;
+  }
+  footer div.blackBG ul li img {
+    display: inline;
+    vertical-align: middle;
+  }
+  footer span{
+    cursor: pointer;
+    bottom:100px;
+    right: 0;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    display:none;
+    background: url('../images/scrollup.png') no-repeat center / contain;
+    opacity: 0.5;
+  }
+  footer span.active{
+    display: block;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1279px){
+  .btn_more{
+    padding: 20px 50px;
+    border: 1px #ffffff solid;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+  }
+  .btn_more:hover{
+    color: #000;
+    background-color: #fff;
+  }
+  header{
+    position: fixed;
+    width: 100%;
+    font-family: "Nanum Myeongjo";
+    z-index: 1;
+    height: 0px;
+  }
+  header.active{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+  }
+  header button{
+    z-index: 1;
+    position: absolute;
+    width: 7.8%;
+    height: 60px;
+    top: 0;
+    right:30px;
+    display:block;
+    background:url('../images/menu_button.png') center / cover;
+  }
+  header button.active{
+    background:url('../images/menu_close.png') center / cover;
+  }
+  header > a{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;  
+    width: 50px;
+    height: 50px;
+    background: url('../images/main_logo.png') no-repeat center / auto;
+  }
+  header > a.active{
+    display: block;
+  }
+  header nav{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 530px;
+    transition-duration: 0.3s;
+    left:-9999px;
+  }
+  header nav.active02{
+      left: 0;
+  }
+  header > nav > ul{
+    transition-duration:0.3s;
+    background-color: #dddddd;
+    width: 46.8%;
+    height: 530px;
+    text-align: left;
+  }
+  header nav > ul > li{
+    position: relative;
+    font-size: 30px;
+    color: #333333;
+  }
+  header nav > ul > li:first-of-type{
+    padding: 160px 0 50px 60px;
+  }
+  header nav > ul > li:not(:first-of-type){
+    padding: 0 0 50px 60px;
+  }
+  header nav > ul > li > span{
+    position: absolute;
+    right:30px;
+    transition-duration: 0.2s;
+  }
+  header nav > ul > li > span.active{
+    transform: rotate(180deg);
+  }
+  header nav > ul > li:first-of-type > span{
+    top: 160px;
+  }
+  header nav ul li > a{
+    color:inherit;
+  }
+  header nav > div{
+    width: 53.3%;
+  }
+  header nav > div > ul{
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  header nav > div > ul.active{
+    display: block;
+    background-color: #ccc;
+  }
+  header nav > div > ul > li{
+    width: 100%;
+ 
+  }
+  header nav > div > ul > li:first-of-type{
+    padding: 160px 0 30px 75px;
+  }
+  header nav > div > ul > li:not(:first-of-type){
+    padding: 0 0 30px 75px;
+  }
+  header nav > div > ul > li > a{
+    font-size: 20px;
+    color: #333333;
+  }
+  section.list_img,section.hanbok_list_img{
+    height: 100vh;
+    position: relative;
+  }
+  section.list_img h1,section.hanbok_list_img h1{
+    text-indent: -9999px;
+  }
+  section.list_img div,section.hanbok_list_img div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    writing-mode: vertical-lr;
+    left: calc(50% - 15px);
+  }
+  section.list_img div strong,section.hanbok_list_img div strong{
+    flex: 1 1 auto;
+    color: #fff;
+    font-size: 15px;
+  }
+  section.list_img div span,section.hanbok_list_img div span{
+    flex: 1 1 auto;
+    display: block;
+    background-color: #fff;
+    height: 130px;
+    width: 1px;
+  }
+  section.list_content,section.hanbok_list_content{
+    margin: 100px 0;
+    text-align: center;
+  }
+  section.list_content h2,section.hanbok_list_content h2{
+    font-size: 50px;
+    color: #777;
+    margin-bottom: 50px;
+  }
+  section.list_content strong,section.hanbok_list_content strong{
+    display: block;
+    font-size: 30px;
+    color: #777;
+    margin-bottom: 60px;
+  }
+  section.jeogori,section.durumagi{
+    position: relative;
+  }
+  section.jeogori h1,section.durumagi h1{
+    padding: 175px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: #000 1px 1px 10px;
+  }
+  section.jeogori ul,section.durumagi ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 1130px;
+  }
+  section.jeogori ul li,section.durumagi ul li{
+    width: 27.2%;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    height:70vh;
+    box-sizing: border-box;
+    text-indent: -9999px;
+  }
+  section.jeogori div,section.durumagi div{
+    display: inline-block;
+    line-height: 30px;
+    width:45%;
+    text-align: center;
+    position: absolute;
+    bottom:200px;
+  }
+  section.jeogori div strong,section.durumagi div strong{
+    display: block;
+    font-size: 22px;
+    color: rgba(102, 102, 102,1);
+    margin-bottom: 20px;
+  }
+  section.jeogori div p,section.durumagi div p{
+    font-size: 15px;
+    border-top: rgba(221, 221, 221, 0.6) 3px solid;
+    border-bottom: rgba(221, 221, 221, 0.6) 3px solid;
+    color: #666666;
+    padding: 20px 5%;
+  }
+  footer{
+    height: 200px;
+    font-family: "Nanum Myeongjo";
+    background: #555555 url("../images/footer_logo.png") no-repeat center 115px;
+  }
+  footer div.blackBG {
+    background-color: #444444;
+  }
+  footer div.blackBG ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  footer div.blackBG ul li:nth-of-type(2) {
+    margin: 0 30px;
+  }
+  footer div.blackBG ul li address {
+    display: inline;
+    color: #dddddd;
+    font-size: 15px;
+  }
+  footer div.blackBG ul li img {
+    display: inline;
+    vertical-align: middle;
+  }
+  footer span{
+    cursor: pointer;
+    bottom:100px;
+    right: 0;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    display:none;
+    background: url('../images/scrollup.png') no-repeat center;
+    opacity: 0.5;
+  }
+  footer span.active{
+    display: block;
+  }
+}
+@media screen and (min-width:1280px){
+  .btn_more{
+    padding: 20px 50px;
+    border: 1px #ffffff solid;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+  }
+  .btn_more:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    font-family: "Nanum Myeongjo";
+    z-index: 10;
+  }
+  header button{
+    display: none;
+  }
+  header nav{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    transition-duration: 0.3s;
+  }
+  header nav.active{
+    background-color: rgba(255, 255, 255, 1);
+    color: #111;
+  }
+  header > nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 31.25%;
+  }
+  header nav ul > li{
+    flex:1;
+    width: 25%;
+    padding: 40px 0;
+  }
+  header nav ul > li > span.material-icons{
+    display: none;
+  }
+  header nav ul li > a{
+    color:inherit;
+  }
+  
+  header nav > div {
+    display: none;
+    border-top: #dddddd 2px solid;
+    justify-content: center;
+    align-items: top;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 31.25%;
+    
+  }
+  header nav > div.active{
+    display: flex;
+  }
+  header nav > div > ul{
+    width: 25%;
+    position: relative;
+    top: -2px;
+    border-top: transparent 2px solid;
+  }
+  header nav > div > ul:hover{
+    background-color: #eee;
+    border-top: #ffa608 2px solid;
+  }
+  header nav > div > ul > li{
+    width: 100%;
+    padding: 20px 0;
+    transition-duration: 0.2s;
+  }
+  header nav > div > ul > li:hover {
+    background-color: #b22234;
+  }
+  header nav > div > ul > li > a {
+    color: #444444;
+  }
+  header nav > div > ul > li:hover > a {
+    color: #ffffff;
+  }
+  section.list_img,section.hanbok_list_img{
+    height: 100vh;
+    position: relative;
+  }
+  section.list_img h1,section.hanbok_list_img h1{
+    text-indent: -9999px;
+  }
+  section.list_img div,section.hanbok_list_img div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    writing-mode: vertical-lr;
+    left: calc(50% - 15px);
+  }
+  section.list_img div strong,section.hanbok_list_img div strong{
+    flex: 1 1 auto;
+    color: #fff;
+    font-size: 15px;
+  }
+  section.list_img div span,section.hanbok_list_img div span{
+    flex: 1 1 auto;
+    display: block;
+    background-color: #fff;
+    height: 130px;
+    width: 1px;
+  }
+  section.list_content,section.hanbok_list_content{
+    margin: 100px 0;
+    text-align: center;
+  }
+  section.list_content h2,section.hanbok_list_content h2{
+    font-size: 50px;
+    color: #777;
+    margin-bottom: 50px;
+  }
+  section.list_content strong,section.hanbok_list_content strong{
+    display: block;
+    font-size: 30px;
+    color: #777;
+    margin-bottom: 60px;
+  }
+  section.jeogori,section.durumagi{
+    position: relative;
+  }
+  section.jeogori h1,section.durumagi h1{
+    padding: 215px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    text-shadow: #000 1px 1px 10px;
+  }
+  section.jeogori ul,section.durumagi ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 1840px;
+  }
+  section.jeogori ul li,section.durumagi ul li{
+    width: 27.2%;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    height:100vh;
+    box-sizing: border-box;
+    text-indent: -9999px;
+  }
+  section.jeogori div,section.durumagi div{
+    display: inline-block;
+    width:31%;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom:50vh;
+  }
+  section.jeogori div strong,section.durumagi div strong{
+    display: block;
+    font-size: 24px;
+    color: rgba(102, 102, 102,1);
+    margin-bottom: 20px;
+  }
+  section.jeogori div p,section.durumagi div p{
+    border-top: rgba(221, 221, 221, 0.6) 3px solid;
+    border-bottom: rgba(221, 221, 221, 0.6) 3px solid;
+    color: #666666;
+    padding: 20px 5%;
+  }
+  footer{
+    height: 200px;
+    font-family: "Nanum Myeongjo";
+    background: #555555 url("../images/footer_logo.png") no-repeat center 115px;
+  }
+  footer div.blackBG {
+    background-color: #444444;
+  }
+  footer div.blackBG ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  footer div.blackBG ul li:nth-of-type(2) {
+    margin: 0 30px;
+  }
+  footer div.blackBG ul li address {
+    display: inline;
+    color: #dddddd;
+    font-size: 15px;
+  }
+  footer div.blackBG ul li img {
+    display: inline;
+    vertical-align: middle;
+  }
+  
+}
