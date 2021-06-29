@@ -835,14 +835,13 @@
   }
   /* section.fabritpattern_img fin */
   section.fabritpattern_content{
-    width: 90%;
-    margin: 100px auto 0;
+    margin-top: 100px;
   }
   section.fabritpattern_content h2{
     text-indent: -9999px;
   }
   section.fabritpattern_content ul li{
-    height:800px;
+    height: 800px;
     background-size:100% 700px;
     background-image: url('../images/fabritpattern_colorBG.png');
     margin-bottom: 60px;
