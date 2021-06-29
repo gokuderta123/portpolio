@@ -2494,10 +2494,14 @@
   }
   /* section.fabritpattern_img fin */
   section.fabritpattern_content{
+    width: 100%;
     margin-top: 100px;
   }
   section.fabritpattern_content h2{
     text-indent: -9999px;
+  }
+  section.fabritpattern_content ul{
+    width: 100%;
   }
   section.fabritpattern_content ul li{
     height: 800px;
