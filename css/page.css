@@ -392,7 +392,7 @@
   }
   /* section.intro_img fin */
   section.intro_content{
-    background:  url('../images/introduction_BG02.png') no-repeat center -100px / auto;
+    background:  url('../images/introduction_BG02.png') no-repeat -950px -100px / auto;
     margin-bottom: 100px;
   }
   section.intro_content h2{
