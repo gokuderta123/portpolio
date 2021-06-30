@@ -648,7 +648,7 @@
   section.directions_img h1{
     font-size: 30px;
     padding: 85px 0;
-    background: url('../images/directions_values_imgBG.jpg') center;
+    background: url('../images/directions_values_imgBG.jpg')no-repeat center / cover;
     text-align: center;
     color: #f4f4f4;
     margin-bottom: 30px;
@@ -1055,7 +1055,7 @@
   }
   /* production_process.html fin */
   section.jeogori h1{
-    background: url('../images/jeogoriBG01.jpg') center;
+    background: url('../images/jeogoriBG01.jpg') no-repeat center / cover;
   }
   section.jeogori ul{
     padding-top: 75px;
@@ -1078,7 +1078,7 @@
   }
   /* jeogori fin */
   section.durumagi h1{
-    background: url('../images/durumagiBG01.jpg') center;
+    background: url('../images/durumagiBG01.jpg') no-repeat center / cover;
   }
   section.durumagi ul{
     padding-top: 75px;
@@ -1489,7 +1489,7 @@
     font-size: 30px;
     padding: 85px 0;
     text-align: center;
-    background: url('../images/FAQ_BG.jpg') center;
+    background: url('../images/FAQ_BG.jpg') no-repeat center / cover;
     text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
     color: #fff;
     margin-bottom: 20px;
