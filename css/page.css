@@ -10,7 +10,7 @@
     width: 100%;
     text-align: center;
     background-color: #b27406;
-    opacity: 0.8;
+    opacity: 0.6;
   }
   aside ul{
     display: flex;
@@ -3637,7 +3637,7 @@
       background-image: url('../images/introduction_BG01.png');
       background-size: 100%;
       background-repeat: no-repeat;
-      background-position: -300px -100px;
+      background-position: -400px -200px;
       box-shadow: #dddddd 1px 1px 1px;
     }
     section.intro_img h1{
