@@ -654,6 +654,11 @@
     margin-bottom: 30px;
   }
   /* section.directions_img fin */
+  #map{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+  }
   section.bus_subway > h2{
     text-indent: -9999px;
   }
@@ -2262,9 +2267,14 @@
     background: url('../images/directions_values_imgBG.jpg') center;
     text-align: center;
     color: #f4f4f4;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   /* section.directions_img fin */
+  #map{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+  }
   section.bus_subway > h2{
     text-indent: -9999px;
   }
@@ -3919,9 +3929,14 @@
       background: url('../images/directions_values_imgBG.jpg') center;
       text-align: center;
       color: #f4f4f4;
-      margin-bottom: 200px;
+      margin-bottom: 100px;
     }
     /* section.directions_img fin */
+    #map{
+      width: 100%;
+      height: 600px;
+      margin-bottom: 100px;
+    }
     section.bus_subway h2{
       text-indent: -9999px;
     }
